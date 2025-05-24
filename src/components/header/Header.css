@@ -1,0 +1,39 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #111b22;
+  padding: 1rem 2rem;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 1rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+nav button {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.proceed {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.register {
+  background-color: #00b5ad;
+  color: #fff;
+}

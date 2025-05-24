@@ -1,0 +1,58 @@
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 160px 40px;
+    background-color: #222831;
+  }
+  
+  .card {
+    border-radius: 16px;
+    overflow: hidden;
+    background-color: #111827;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+  }
+  
+  .card .text {
+    position: relative;
+    z-index: 1;
+    padding: 1.5rem;
+    background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+  }
+  
+  .card h2, .card h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .card.large {
+    height: 350px;
+  }
+  
+  .bottom-cards {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .card.small {
+    flex: 1;
+    height: 250px;
+  }
+  
+  .small-text {
+    max-width: 70%;
+  }

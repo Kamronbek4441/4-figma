@@ -1,0 +1,22 @@
+.rest {
+    padding: 40px 100px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.rest > h1 {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.rest > p {
+    font-size: 40px;
+    color: #818181;
+}
+
+.rest > img {
+    height: 160px;
+}
