@@ -5,14 +5,15 @@ const Header = () => {
   return (
     <div>
       <header>
-        <div class="logo">⚡ TechInnov</div>
-        <nav>
-          <a href="#">Begin</a>
-          <a href="#">Perspective</a>
-          <a href="#">Inventors</a>
-          <button class="proceed">Proceed</button>
-          <button class="register">Register Today</button>
-        </nav>
+        <div class="navbar">
+          <div class="logo">📱 TechAvenue Services</div>
+          <nav class="nav-links">
+            <a href="#">Greetings From Us</a>
+            <a href="#">Our Service Adventure</a>
+            <a href="#">Meet Our Service Team</a>
+          </nav>
+          <button class="top-btn">Dive Into Our Services</button>
+        </div>
       </header>
     </div>
   );

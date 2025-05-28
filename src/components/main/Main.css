@@ -1,46 +1,72 @@
-main {
+.hero {
+  position: relative;
+  height: 100vh;
   display: flex;
-  /* height: calc(100vh - 80px); */
-}
-
-.left {
-  width: 50%;
-  padding: 4rem 3rem;
-  display: flex;
-  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  background-color: #ffffff;
-}
-
-.left h1 {
-  font-size: 3rem;
-  color: #1c1c1c;
-  margin-bottom: 1rem;
-}
-
-.left p {
-  font-size: 1.1rem;
-  color: #7a7a7a;
-  margin-bottom: 2rem;
-}
-
-.learn-more {
-  padding: 0.75rem 1.5rem;
-  background-color: #008080;
-  color: #fff;
-  font-size: 1rem;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.right {
-  width: 50%;
   overflow: hidden;
 }
 
-.right img {
+.hero-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  z-index: 0;
+}
+
+.overlay {
+  position: relative;
+  z-index: 1;
+  background: rgba(92, 43, 173, 0.7);
+  padding: 2rem 3rem;
+  border-radius: 20px;
+  text-align: center;
+  max-width: 600px;
+}
+
+.overlay h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.overlay p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn.primary {
+  background-color: orange;
+  color: white;
+}
+
+.btn.secondary {
+  background-color: transparent;
+  border: 2px solid orange;
+  color: white;
+}
+
+.btn.primary:hover {
+  background-color: darkorange;
+}
+
+.btn.secondary:hover {
+  background-color: orange;
+  color: white;
 }

@@ -1,22 +1,110 @@
-.rest {
-    padding: 40px 100px; 
+.ingenious-services {
+    background-color: #1f2732;
+    color: white;
+    padding: 4rem 2rem;
+    font-family: sans-serif;
+  }
+  
+  .service-grid {
     display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    gap: 50px;
-}
+    margin-bottom: 3rem;
+  }
+  
+  .service-image img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .service-text {
+    max-width: 500px;
+  }
+  
+  .service-text h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-text p {
+    margin-bottom: 1.5rem;
+    color: #cbd5e1;
+  }
+  
+  .team-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+  
+  .team-member {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    background-color: #2e3744;
+    padding: 0.75rem;
+    border-radius: 8px;
+  }
+  
+  .team-member img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  
+  .testmonal-section {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: 1px solid #3e4855;
+    padding: 200px 100px;
+  }
 
-.rest > h1 {
-    font-size: 80px;
-    font-weight: 600;
-}
+  .testimonial-section {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* border-top: 1px solid #3e4855; */
+    padding: 200px 100px;
+  }
 
-.rest > p {
-    font-size: 40px;
-    color: #818181;
-}
+  .testimonal-section {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: 1px solid #3e4855;
+    padding: 200px 100px;
+    background-color: #3e4855;
+  }
+  
+  .testimonial {
+    max-width: 400px;
+    text-align: center;
+    color: #d1d5db;
+  }
 
-.rest > img {
-    height: 160px;
-}
+  .testimonial1 {
+    max-width: 400px;
+    text-align: center;
+    color: #d1d5db;
+  }
+  
+  .testimonial img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonial span {
+    display: block;
+    margin-top: 0.5rem;
+    color: #a1a1aa;
+    font-size: 0.9rem;
+  }
+  

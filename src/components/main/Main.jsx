@@ -4,20 +4,23 @@ import "./Main.css"
 const Main = () => {
   return (
     <div>
-      <main>
-        <section class="left">
+      <section class="hero">
+        <img src="./assets/bacground.svg" alt="Background" class="hero-bg" />
+        <div class="overlay">
           <h1>
-            Transforming
-            <br />
-            Technology
+            Sparking Your App <br /> Ideas
           </h1>
-          <p>Pioneer with us today.</p>
-          <button class="learn-more">Learn More</button>
-        </section>
-        <section class="right">
-          <img src="./assets/face.jpg" alt="Tech Face" />
-        </section>
-      </main>
+          <p>Creating digital journeys passionately</p>
+          <div class="buttons">
+            <a href="#" class="btn primary">
+              Start Your App Journey 🚀
+            </a>
+            <a href="#" class="btn secondary">
+              Know More
+            </a>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }

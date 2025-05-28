@@ -4,31 +4,36 @@ import "./Home.css";
 const Home = () => {
   return (
     <div>
-      <section class="cards-container">
-        <div class="card large">
-          <img src="./assets/vr.png" alt="Effortless Merging with VR" />
-          <div class="text">
-            <h2>Effortless Merging</h2>
-            <p>Consolidate your digital journey.</p>
+      <section class="services">
+        <h2>Our Service Methodology</h2>
+        <p class="subtext">
+          Uncover our systematic approach to turning your dreams into reality.
+        </p>
+
+        <div class="service-steps">
+          <div class="step">
+            <img src="./assets/evaluation.png" alt="Service Evaluation" />
+            <h4>Step 1</h4>
+            <h3>Service Evaluation</h3>
+            <p>
+              Your ideas are valuable to us, we discuss potential strategies and
+              anticipated results.
+            </p>
           </div>
-        </div>
-        <div class="bottom-cards">
-          <div class="card small">
-            <img src="./assets/miyya.png" alt="Solid Protection with brain chip" />
-            <div class="text small-text">
-              <h3>Solid Protection</h3>
-              <p>Safeguarding your data authenticity.</p>
-            </div>
+          <div class="step">
+            <img src="./assets/bacground.svg" alt="Design and Execute" />
+            <h4>Step 2</h4>
+            <h3>Design & Execute</h3>
+            <p>
+              Our experts craft the concept and execute the solution, keeping
+              you fully informed.
+            </p>
           </div>
-          <div class="card small">
-            <img
-              src="./assets/qo'l.png"
-              alt="User-Focused Layout on touch interface"
-            />
-            <div class="text">
-              <h3>User-Focused Layout</h3>
-              <p>Weaving easy-to-use user platforms.</p>
-            </div>
+          <div class="step">
+            <img src="./assets/evaluation.png" alt="Service Assurance" />
+            <h4>Step 3</h4>
+            <h3>Service Assurance</h3>
+            <p>Strict testing guarantees top-notch quality and performance.</p>
           </div>
         </div>
       </section>
