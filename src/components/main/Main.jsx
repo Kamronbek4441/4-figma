@@ -5,21 +5,12 @@ const Main = () => {
   return (
     <div>
       <section class="hero">
-        <img src="./assets/bacground.svg" alt="Background" class="hero-bg" />
-        <div class="overlay">
-          <h1>
-            Sparking Your App <br /> Ideas
-          </h1>
-          <p>Creating digital journeys passionately</p>
-          <div class="buttons">
-            <a href="#" class="btn primary">
-              Start Your App Journey 🚀
-            </a>
-            <a href="#" class="btn secondary">
-              Know More
-            </a>
-          </div>
-        </div>
+        <img src="./assets/lampa.png" alt="Hero Image" class="hero-image" />
+        <h1>Assessment Reimagined</h1>
+        <p>Transition from paper to digital effortlessly.</p>
+        <a href="#" class="btn-primary">
+          Discover the Platform
+        </a>
       </section>
     </div>
   );

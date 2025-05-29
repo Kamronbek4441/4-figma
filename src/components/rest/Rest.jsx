@@ -4,75 +4,98 @@ import "./Rest.css";
 const Rest = () => {
   return (
     <div>
-      <section class="ingenious-services">
-        <div class="service-grid">
-          <div class="service-image">
-            <img src="./assets/lummi.svg" alt="" />
-          </div>
-          <div class="service-text">
-            <h2>Ingenious Services</h2>
-            <p>Check out our latest projects demonstrating our expertise.</p>
+      <div class="wrapper">
+        <header class="dashboard-header">
+          <h1 class="title">Interactive Dashboard</h1>
+          <p class="subtitle">A centralized system for all assessment data.</p>
+        </header>
 
-            <div class="team-grid">
-              <div class="team-member">
-                <img src="./assets/lummiavatar.svg" alt="" />
-                <div>
-                  <strong>Alex Johnson</strong>
-                  <br />
-                  Lead Flutter Developer
-                </div>
-              </div>
-              <div class="team-member">
-                <img src="./assets/avatar.svg" alt="" />
-                <div>
-                  <strong>Samantha Lee</strong>
-                  <br />
-                  UI/UX Guru
-                </div>
-              </div>
-              <div class="team-member">
-                <img src="./assets/lummiavatar.svg" alt="" />
-                <div>
-                  <strong>Michael Brown</strong>
-                  <br />
-                  Digital Marketing Whiz
-                </div>
-              </div>
-              <div class="team-member">
-                <img src="./assets/avatar.svg" alt="" />
-                <div>
-                  <strong>Emily Thompson</strong>
-                  <br />
-                  Web Development Lead
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="testmonal-section">
-          <div class="testimonial-section">
-            <div class="testimonial">
-              <img src="./assets/lummiavatar.svg" alt="" />
-              <p>
-                TechAvenue's team is unmatched. They surpassed our expectations
-                and were great to work with. <br />
-                <span>Chris Parker, CEO</span>
+        <div class="card-grid">
+          <div class="info-card">
+            <img src="./assets/frindly.svg" alt="" className="card-image" />
+            <div class="card-body">
+              <h3 class="card-title">User-Friendly Design</h3>
+              <p class="card-text">
+                Intuitive interface for efficient assessment.
               </p>
             </div>
           </div>
-          <div className="testimonal-section">
-            <div class="testimonial1">
-              <img src="./assets/avatar.svg" alt="" />
-              <p>
-                Their meticulousness and innovative strategy have dramatically
-                enhanced our business. <br />
-                <span>Ava Davis, CMO</span>
+
+          <div class="info-card">
+            <img src="./assets/feedback.svg" alt="" className="card-image" />
+            <div class="card-body">
+              <h3 class="card-title">Instant Feedback</h3>
+              <p class="card-text">Provide immediate evaluation to students.</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <img src="./assets/analysis.svg" alt="" className="card-image" />
+            <div class="card-body">
+              <h3 class="card-title">Strategic Analysis</h3>
+              <p class="card-text">
+                Identify trends and make informed decisions.
+              </p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <img src="./assets/tools.svg" alt="" className="card-image" />
+            <div class="card-body">
+              <h3 class="card-title">Collaborative Tools</h3>
+              <p class="card-text">Foster a community of sharing and growth.</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <img src="./assets/data.svg" alt="" className="card-image" />
+            <div class="card-body">
+              <h3 class="card-title">Secure Data</h3>
+              <p class="card-text">
+                Reliable and safe storage of all assessment records.
+              </p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <img src="./assets/features.svg" alt="" className="card-image" />
+            <div class="card-body">
+              <h3 class="card-title">Accessibility Features</h3>
+              <p class="card-text">
+                Ensure assessments are fair and inclusive.
+              </p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <img src="./assets/grading.svg" alt="" className="card-image" />
+            <div class="card-body">
+              <h3 class="card-title">Grading Automation</h3>
+              <p class="card-text">
+                Save time with automatic scoring capabilities.
+              </p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <img src="./assets/tracking.svg" alt="" className="card-image" />
+            <div class="card-body">
+              <h3 class="card-title">Progress Tracking</h3>
+              <p class="card-text">Monitor student achievements over time.</p>
+            </div>
+          </div>
+
+          <div class="info-card">
+            <img src="./assets/multi.svg" alt="" className="card-image" />
+            <div class="card-body">
+              <h3 class="card-title">Multi-Level Views</h3>
+              <p class="card-text">
+                Analyze scores by class, grade, or school.
               </p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   );
 };

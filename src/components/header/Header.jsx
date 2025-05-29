@@ -4,16 +4,24 @@ import "./Header.css"
 const Header = () => {
   return (
     <div>
-      <header>
-        <div class="navbar">
-          <div class="logo">📱 TechAvenue Services</div>
-          <nav class="nav-links">
-            <a href="#">Greetings From Us</a>
-            <a href="#">Our Service Adventure</a>
-            <a href="#">Meet Our Service Team</a>
-          </nav>
-          <button class="top-btn">Dive Into Our Services</button>
-        </div>
+      <header class="navbar">
+        <div class="logo">📋 Digital Assessor</div>
+        <nav>
+          <ul class="nav-links">
+            <li>
+              <a href="#">Overview</a>
+            </li>
+            <li>
+              <a href="#">Features</a>
+            </li>
+            <li>
+              <a href="#">Our Team</a>
+            </li>
+          </ul>
+        </nav>
+        <a href="#" class="btn-outline">
+          Get Started Now
+        </a>
       </header>
     </div>
   );
