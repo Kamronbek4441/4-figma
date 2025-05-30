@@ -1,39 +1,58 @@
-.hero {
-  text-align: center;
-  padding: 3rem 1rem;
+.hero-section {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
 }
 
-.hero-image {
-  max-width: 100%;
-  width: 600px;
-  border-radius: 1rem;
-  margin: 0 auto;
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   display: block;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.15);
 }
 
-.hero h1 {
+.overlay-card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #121d27;
+  padding: 2rem 3rem;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 600px;
+}
+
+.overlay-card h1 {
   font-size: 2.5rem;
-  margin-top: 2rem;
-  font-weight: 700;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 0.8rem;
 }
 
-.hero p {
-  font-size: 1.1rem;
-  color: #6b7280;
-  margin: 1rem 0;
+.overlay-card p {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  color: #ccc;
 }
 
-.btn-primary {
-  background-color: #006d77;
-  color: #ffffff;
+.buttons .btn {
   padding: 0.75rem 1.5rem;
-  border-radius: 0.5rem;
-  text-decoration: none;
-  font-weight: 600;
-  transition: background 0.3s ease;
+  margin: 0 0.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
 }
 
-.btn-primary:hover {
-  background-color: #00575f;
+.inspect {
+  background-color: #00b9bd;
+  color: white;
+}
+
+.discover {
+  background: transparent;
+  border: 1px solid #999;
+  color: #ccc;
 }

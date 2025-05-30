@@ -4,14 +4,21 @@ import "./Main.css"
 const Main = () => {
   return (
     <div>
-      <section class="hero">
-        <img src="./assets/lampa.png" alt="Hero Image" class="hero-image" />
-        <h1>Assessment Reimagined</h1>
-        <p>Transition from paper to digital effortlessly.</p>
-        <a href="#" class="btn-primary">
-          Discover the Platform
-        </a>
-      </section>
+      <main class="hero-section">
+        <img
+          src="35645fd8-7e12-45e9-a284-0b9aa636a01c.png"
+          alt="Hero Background"
+          class="hero-img"
+        />
+        <div class="overlay-card">
+          <h1>Boost Your Interface</h1>
+          <p>Embodying Simplicity</p>
+          <div class="buttons">
+            <button class="btn inspect">Inspect Projects</button>
+            <button class="btn discover">Discover More</button>
+          </div>
+        </div>
+      </main>
     </div>
   );
 }

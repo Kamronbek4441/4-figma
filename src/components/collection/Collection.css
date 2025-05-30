@@ -1,23 +1,42 @@
-.vision-section {
-  background-color: #222831;
+.creations-section {
+  background-color: #222831; /* Dark background */
   color: white;
+  text-align: center;
   padding: 4rem 2rem;
-  text-align: left;
 }
 
-.vision-container {
-  max-width: 800px;
-  margin: auto;
+.creations-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
 }
 
-.vision-subtitle {
-  color: #06b6d4;
-  font-size: 1rem;
-  margin-bottom: 1rem;
+.creations-section .subtitle {
+  color: #cbd5e1;
+  font-size: 1.1rem;
+  margin-bottom: 3rem;
 }
 
-.vision-title {
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 1.4;
+.creations-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.creation-card {
+  max-width: 300px;
+  text-align: center;
+}
+
+.creation-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.creation-card p {
+  margin-top: 0.8rem;
+  font-weight: 600;
+  color: #e2e8f0;
 }

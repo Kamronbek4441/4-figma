@@ -2,42 +2,37 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #111827;
   padding: 1rem 2rem;
-  color: #ffffff;
+  background-color: #121d27;
 }
 
 .logo {
-  font-weight: 600;
-  font-size: 1rem;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 2rem;
+  color: #fff;
+  font-weight: bold;
 }
 
 .nav-links a {
-  color: #ffffff;
-  text-decoration: none;
-  font-size: 0.95rem;
-}
-
-.btn-outline {
-  border: 1px solid #ffffff;
-  padding: 0.5rem 1rem;
-  border-radius: 0.375rem;
-  color: #ffffff;
+  color: #fff;
+  margin: 0 1rem;
   text-decoration: none;
   font-size: 0.9rem;
-  transition: background 0.3s ease;
 }
 
-.btn-outline:hover {
-  background-color: #ffffff;
-  color: #111827;
+.nav-buttons .btn {
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.begin {
+  background: transparent;
+  color: white;
+  border: 1px solid #fff;
+}
+
+.kickoff {
+  background-color: #00b9bd;
+  color: #fff;
 }

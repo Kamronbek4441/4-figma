@@ -5,23 +5,16 @@ const Header = () => {
   return (
     <div>
       <header class="navbar">
-        <div class="logo">📋 Digital Assessor</div>
-        <nav>
-          <ul class="nav-links">
-            <li>
-              <a href="#">Overview</a>
-            </li>
-            <li>
-              <a href="#">Features</a>
-            </li>
-            <li>
-              <a href="#">Our Team</a>
-            </li>
-          </ul>
+        <div class="logo">⚡ DesignCraftsmanship</div>
+        <nav class="nav-links">
+          <a href="#">Work Showcase</a>
+          <a href="#">Beliefs</a>
+          <a href="#">Joint Ventures</a>
         </nav>
-        <a href="#" class="btn-outline">
-          Get Started Now
-        </a>
+        <div class="nav-buttons">
+          <button class="btn begin">Begin</button>
+          <button class="btn kickoff">Kickoff</button>
+        </div>
       </header>
     </div>
   );

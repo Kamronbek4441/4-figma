@@ -4,14 +4,22 @@ import "./Collection.css";
 const Collection = () => {
   return (
     <div>
-      <section class="vision-section">
-        <div class="vision-container">
-          <h4 class="vision-subtitle">Our Vision</h4>
-          <h2 class="vision-title">
-            Empowering educators to accurately <br />
-            evaluate and track student progress <br />
-            through digital assessments.
-          </h2>
+      <section class="creations-section">
+        <h2>Chosen Creations</h2>
+        <p class="subtitle">Polished for Precision</p>
+        <div class="creations-grid">
+          <div class="creation-card">
+            <img src="./assets/lummi.svg" alt="User-Focused Design" />
+            <p>User-Focused Design</p>
+          </div>
+          <div class="creation-card">
+            <img src="./assets/navigation.svg" alt="Effortless Navigation" />
+            <p>Effortless Navigation</p>
+          </div>
+          <div class="creation-card">
+            <img src="./assets/layouts.svg" alt="Adaptable Layouts" />
+            <p>Adaptable Layouts</p>
+          </div>
         </div>
       </section>
     </div>
