@@ -7,7 +7,7 @@ const Main = () => {
       <main class="hero-section">
         <img
           src="35645fd8-7e12-45e9-a284-0b9aa636a01c.png"
-          alt="Hero Background"
+          alt=""
           class="hero-img"
         />
         <div class="overlay-card">
